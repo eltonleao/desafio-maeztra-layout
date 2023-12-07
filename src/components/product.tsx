@@ -24,10 +24,10 @@ function Product({ color = "DEAC71" }: any) {
     <div className={` ${styles.productCard} `}>
       <img
         className={`${styles.productImage}`}
-        src={`/img/product1-${sku}.png`}
+        src={`https://cdn.eltonleao.com/maeztra/img/product1-${sku}.png`}
         alt=""
       />
-      {/* <img src="./img/product1.png" alt="" /> */}
+      {/* <img src="https://cdn.eltonleao.com/maeztra/img/product1.png" alt="" /> */}
       <div className={`${styles.skuContainer}`}>
         <div
           style={{ backgroundColor: "#DEAC71" }}
