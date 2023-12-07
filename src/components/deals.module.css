@@ -1,0 +1,57 @@
+.deals {
+    margin-top: 24px;
+}
+
+.title {
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.dealCard {
+    background: #EFEFEF;
+    border-radius: 4px;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    min-height: 64px;
+    text-wrap: nowrap;
+}
+
+.dealIcon {
+    max-width: 32px;
+    max-height: 32px;
+}
+
+.dealCardTextContainer {
+    /* min-width: 200px; */
+    width: 100%;
+    /* padding: 11px 27px 11px 0px; */
+}
+
+.dealTitle {
+    font-family: Titillium Web;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.dealText {
+    font-family: Titillium Web;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}

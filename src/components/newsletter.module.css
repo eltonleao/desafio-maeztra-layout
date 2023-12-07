@@ -1,0 +1,116 @@
+.newsletter {
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 88px;
+    border: 1px solid #EFEFEF;
+    padding: 28px;
+}
+
+.title {
+    display: flex;
+    width: 307px;
+    height: 38px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: var(--color-2-900, #000);
+    font-family: Titillium Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.submitWrapper {
+    position: relative;
+}
+
+.input {
+    display: flex;
+    width: 468px;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0 24px;
+
+    color: var(--color-2-500, #353535);
+    font-family: Titillium Web;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.submit {
+    height: 40px;
+    max-width: 79px;
+    display: flex;
+    width: 131px;
+    padding: 8px 43px 8px 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid var(--color-1500-faa-500, #FAA500);
+    background: var(--color-1500-faa-500, #FAA500);
+    color: var(--color-2-50, #ffffff);
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: var(--color-5-500, #FFF);
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+@media (max-width: 993px) {
+    .newsletter {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 48px;
+    }
+
+    .title {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .submitWrapper {
+        display: flex;
+        gap: 5px;
+    }
+
+    .input {
+        width: 204px;
+        border-radius: 4px;
+        border: 1px solid var(--color-2-500, #353535);
+        background: var(--color-5-500, #FFF);
+
+        color: var(--color-2-500, #353535);
+        font-family: Titillium Web;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .input::placeholder {
+
+        color: var(--color-2-500, #353535);
+        font-family: Titillium Web;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .submit {
+        position: relative;
+    }
+}

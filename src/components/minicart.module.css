@@ -1,0 +1,40 @@
+.minicart {
+    padding-top: 2rem;
+}
+
+@media (min-width: 993px) {
+
+    .cart {
+        border: 1px solid #FAA500;
+        padding: 12px;
+        border-radius: 8px;
+        font-weight: 400;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .cart:hover {
+        background-color: #FAA500;
+        color: #fff;
+    }
+
+    .cart svg path {
+        transition: all 0.2s ease-in-out;
+    }
+
+    .cart:hover svg path {
+        fill: #fff !important;
+    }
+}
+
+.navItem {
+    font-size: var(--font-size);
+    display: flex;
+    gap: 8px;
+}
+
+@media (max-width: 993px) {
+    .cartLabel {
+        display: none;
+    }
+}

@@ -1,0 +1,22 @@
+.partners {
+    margin-top: 74px;
+}
+
+.title {
+    font-family: Titillium Web;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.dealCard {
+    margin: 15px;
+    position: relative;
+}
+
+.dealCard img {
+    max-width: 100%;
+}

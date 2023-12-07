@@ -1,0 +1,89 @@
+.shelf {
+    margin-top: 80px;
+}
+
+.title {
+    font-family: Titillium Web;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.skuContainer {
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+}
+
+.sku {
+    width: 27px;
+    height: 27px;
+    border-radius: 4px;
+    border: 1px;
+    background: #DEAC71;
+    cursor: pointer;
+}
+
+.sku.selected {
+    border: 1px solid var(--black);
+}
+
+.productPrice {
+    font-family: Titillium Web;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: .5rem;
+
+}
+
+.productName {
+    font-family: Titillium Web;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: .5rem;
+
+}
+
+.productDescription {
+    font-family: Titillium Web;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7d7d7d;
+    margin-bottom: .5rem;
+}
+
+.addToCartBtn {
+    background: #FAA500;
+    height: 35px;
+    top: 550px;
+    left: 27px;
+    border-radius: 4px;
+    color: var(--white);
+
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px solid var(--active);
+    transition: all .2s ease-in-out;
+}
+
+.addToCartBtn:hover {
+    background-color: var(--white);
+    border: 1px solid var(--active);
+    color: var(--active);
+}

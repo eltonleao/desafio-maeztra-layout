@@ -1,0 +1,201 @@
+.newsletter-popup {
+    max-width: 95vw;
+}
+
+@media (max-width: 993px) {
+    .popup-content {
+        padding: 20px;
+    }
+}
+
+.newsletter-popup .swal2-html-container {
+    margin: 0;
+    padding: 0;
+}
+
+
+.newsletter-popup .popup-image {
+    background: url('/img/newsletter.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px
+}
+
+
+@media (max-width: 993px) {
+    .newsletter-popup .popup-image {
+        display: none;
+    }
+}
+
+.newsletter-popup .popup-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.newsletter-popup h5 {
+    color: var(--Color-2, #464B54);
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 166.667% */
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.newsletter-popup h4 {
+    color: var(--Color-4, #787D83);
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 25px;
+    /* 115% */
+}
+
+.newsletter-popup strong {
+    color: var(--Color-4, #787D83);
+    font-family: Titillium Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.newsletter-popup form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-search-mobile,
+.newsletter-popup input {
+    border-radius: 10px;
+    border: 1px solid var(--cor-neutra-color-5500-bebebe, #C4C4C4);
+    background: var(--Branco, #FFF);
+    width: 100%;
+    max-width: 322px;
+    height: 40px;
+    flex-shrink: 0;
+    padding: 13px;
+    margin: 0 auto 12px auto;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.input-search-mobile::placeholder,
+.newsletter-popup input::placeholder {
+    color: var(--Color-4, #787D83);
+    font-size: 12px;
+    font-weight: 400;
+    align-self: center;
+    display: flex;
+    position: relative;
+    /* top: -5px; */
+}
+
+.newsletter-popup .submit-newsletter {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 322px;
+    border-radius: 10px;
+    background: #FAA500;
+    font-family: Titillium Web;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--txt-light-01, #FFF);
+    font-family: Titillium Web;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 8px;
+    margin: 0 auto;
+    border: 1px solid #FAA500;
+}
+
+.newsletter-popup .submit-newsletter:hover {
+    transition: all 0.3s ease-in-out;
+    background: white;
+    color: #FAA500;
+    border: 1px solid #FAA500;
+}
+
+.newsletter-popup .submit-newsletter:hover svg path {
+    fill: #FAA500 !important;
+}
+
+
+.newsletter-close-button {
+    position: absolute;
+    top: -25px;
+    width: fit-content;
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+
+    display: flex;
+    width: 47px;
+    height: 21.186px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    border: none !important;
+    outline: none !important;
+}
+
+.newsletter-close-button:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+.input-search-mobile {
+    max-width: 80% !important;
+    margin: auto;
+    height: 40px;
+}
+
+.search-mobile-confirm-button {
+    height: 40px;
+    background: #FAA500;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 8px;
+}
+
+.search-mobile-popup {
+    padding-bottom: 1rem;
+}
