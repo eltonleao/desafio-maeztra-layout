@@ -27,7 +27,7 @@ function Product({ color = "DEAC71" }: any) {
         src={`/img/product1-${sku}.png`}
         alt=""
       />
-      {/* <img src=".//img/product1.png" alt="" /> */}
+      {/* <img src="./img/product1.png" alt="" /> */}
       <div className={`${styles.skuContainer}`}>
         <div
           style={{ backgroundColor: "#DEAC71" }}

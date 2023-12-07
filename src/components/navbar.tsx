@@ -41,7 +41,7 @@ function renderNewsLetterHTML() {
   <div class="flex justify-between">
     <div class="w-full flex-1 popup-image"></div>
     <div class="flex-1 popup-content">
-      <img class="paperplane mb-3" src=".//icons/lupa.svg">
+      <img class="paperplane mb-3" src="./icons/lupa.svg">
       <h4>Encontre os <br><strong>melhores produtos:</strong></h4>
     </div>
   </div>
@@ -193,7 +193,7 @@ export function Navbar({ isSolid = false }) {
           </div>
           <div className={`${styles.mGlassAndBag}`}>
             <button onClick={openSearch} className="lg:hidden text-black">
-              <img src=".//icons/lupa.svg" alt="" />
+              <img src="./icons/lupa.svg" alt="" />
             </button>
             <button className={`lg:hidden text-black relative`}>
               <Minicart size={24} />
@@ -223,7 +223,7 @@ export function Navbar({ isSolid = false }) {
                 variant="small"
                 className={`${styles.navItem}`}
               >
-                <img src=".//icons/user.svg" alt="" />
+                <img src="./icons/user.svg" alt="" />
                 <span>Minha Conta</span>
               </Typography>
             </li>
@@ -233,7 +233,7 @@ export function Navbar({ isSolid = false }) {
                 variant="small"
                 className={`${styles.navItem}`}
               >
-                <img src=".//icons/icon-heart.svg" alt="" />
+                <img src="./icons/icon-heart.svg" alt="" />
                 <span>Minha Lista</span>
               </Typography>
             </li>
@@ -247,7 +247,7 @@ export function Navbar({ isSolid = false }) {
             <ul className="flex flex-col gap-4 text-blue-gray-900">
               <NavItem>
                 <div className="flex gap-1">
-                  <img src=".//icons/icon-dress.svg" alt="" />
+                  <img src="./icons/icon-dress.svg" alt="" />
                   <span className={`${styles.highlight}`}>Novidades</span>
                 </div>
               </NavItem>
