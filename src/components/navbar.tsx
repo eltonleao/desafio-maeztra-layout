@@ -53,7 +53,8 @@ export function Navbar({ isSolid = false }) {
   const [isScrolling, setIsScrolling] = React.useState(false);
   const [searchText, setSearchText] = React.useState("");
 
-  async function searchProduct() {
+  async function searchProduct(e: any = null) {
+    if (e) e.preventDefault();
     Swal.showLoading();
     fetch(
       `https://fakestoreapi.com/products/${Math.floor(Math.random() * 20) + 1}`
@@ -203,19 +204,21 @@ export function Navbar({ isSolid = false }) {
             </button>
           </div>
           <div className={`relative ${styles.searchBar_container}`}>
-            <input
-              className={`${styles.searchBar}`}
-              type="seach"
-              placeholder="O que você busca?"
-              value={searchText}
-              onChange={(e) => setSearchText(e.target.value)}
-            />
-            <button
-              onClick={searchProduct}
-              className={`${styles.searchButton} hover:bg-transparent hover:text-orange-500 hover:border-orange-500`}
-            >
-              Buscar
-            </button>
+            <form onSubmit={searchProduct}>
+              <input
+                className={`${styles.searchBar}`}
+                type="seach"
+                placeholder="O que você busca?"
+                value={searchText}
+                onChange={(e) => setSearchText(e.target.value)}
+              />
+              <button
+                onClick={searchProduct}
+                className={`${styles.searchButton} hover:bg-transparent hover:text-orange-500 hover:border-orange-500`}
+              >
+                Buscar
+              </button>
+            </form>
           </div>
           <ul
             className={`ml-10 hidden items-center gap-6 lg:flex text-gray-900`}
