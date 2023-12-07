@@ -3,6 +3,7 @@
 import React from "react";
 import Slider from "react-slick";
 import styles from "./hero.module.css";
+import Image from "next/image";
 
 function SampleNextArrow(props: { className: any; style: any; onClick: any }) {
   const { className, style, onClick } = props;
@@ -18,8 +19,8 @@ function SampleNextArrow(props: { className: any; style: any; onClick: any }) {
 function Banner({ desktopIMG, mobileIMG }: any) {
   return (
     <div className={`${styles.slide}`}>
-      <img className={`m-auto ${styles.dektopIMG}`} src={desktopIMG} alt="" />
-      <img className={`m-auto ${styles.mobileIMG}`} src={mobileIMG} alt="" />
+      <Image className={`m-auto ${styles.dektopIMG}`} src={desktopIMG} alt="" />
+      <Image className={`m-auto ${styles.mobileIMG}`} src={mobileIMG} alt="" />
       <div className={`container ${styles.sliderContentContainer}`}>
         <h3>Promoções de Outono</h3>
         <p>Confiras os melhores looks para combinar com você nesse Outono</p>

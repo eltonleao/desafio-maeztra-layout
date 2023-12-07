@@ -2,12 +2,18 @@
 
 import styles from "./deals.module.css";
 import Slider from "react-slick";
+import Image from "next/image";
 
 function DealCard({ image, title, description }: any) {
   return (
     <div className={`${styles.dealCard}`}>
       <div>
-        <img className={`${styles.dealIcon}`} height={32} src={image} />
+        <Image
+          alt=""
+          className={`${styles.dealIcon}`}
+          height={32}
+          src={image}
+        />
       </div>
       <div className={`${styles.dealCardTextContainer}`}>
         <h3 className={`${styles.dealTitle}`}>{title}</h3>

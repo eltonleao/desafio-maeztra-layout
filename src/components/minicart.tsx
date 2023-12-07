@@ -6,6 +6,8 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 
+import Image from "next/image";
+
 import styles from "./minicart.module.css";
 
 export function Minicart({ size }: any) {
@@ -93,7 +95,7 @@ export function Minicart({ size }: any) {
               return (
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center gap-4">
-                    <img
+                    <Image
                       src={item.image}
                       alt={item.title}
                       className="w-16 h-16 object-contain"

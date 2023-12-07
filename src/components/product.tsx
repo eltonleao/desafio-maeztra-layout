@@ -3,6 +3,7 @@
 import React from "react";
 import styles from "./shelf.module.css";
 import Swal from "sweetalert2";
+import Image from "next/image";
 
 function Product({ color = "DEAC71" }: any) {
   const [sku, setSku] = React.useState(color);
@@ -21,12 +22,12 @@ function Product({ color = "DEAC71" }: any) {
 
   return (
     <div className={` ${styles.productCard} `}>
-      <img
+      <Image
         className={`${styles.productImage}`}
         src={`/img/product1-${sku}.png`}
         alt=""
       />
-      {/* <img src="/img/product1.png" alt="" /> */}
+      {/* <Image src="/img/product1.png" alt="" /> */}
       <div className={`${styles.skuContainer}`}>
         <div
           style={{ backgroundColor: "#DEAC71" }}

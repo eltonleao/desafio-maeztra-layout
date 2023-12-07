@@ -2,6 +2,7 @@
 
 import React from "react";
 import styles from "./infocard.module.css";
+import Image from "next/image";
 
 function Infocard() {
   return (
@@ -24,7 +25,7 @@ function Infocard() {
           </p>
         </div>
         <div className={`${styles.imgDesktop}`}></div>
-        <img
+        <Image
           className={`${styles.imgMobile} lg:hidden`}
           src="https://i.imgur.com/1vLCv01.png"
           alt=""
