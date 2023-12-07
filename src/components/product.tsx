@@ -22,12 +22,12 @@ function Product({ color = "DEAC71" }: any) {
 
   return (
     <div className={` ${styles.productCard} `}>
-      <Image
+      <img
         className={`${styles.productImage}`}
         src={`/img/product1-${sku}.png`}
         alt=""
       />
-      {/* <Image src="/img/product1.png" alt="" /> */}
+      {/* <img src="/img/product1.png" alt="" /> */}
       <div className={`${styles.skuContainer}`}>
         <div
           style={{ backgroundColor: "#DEAC71" }}

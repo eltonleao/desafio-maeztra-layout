@@ -95,7 +95,7 @@ export function Minicart({ size }: any) {
               return (
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center gap-4">
-                    <Image
+                    <img
                       src={item.image}
                       alt={item.title}
                       className="w-16 h-16 object-contain"

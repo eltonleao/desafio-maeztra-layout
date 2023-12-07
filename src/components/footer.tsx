@@ -128,38 +128,38 @@ export function Footer() {
               target="_blank"
               href={"https://www.facebook.com/maeztraconsultoria/"}
             >
-              <Image src="/icons/facebook.svg" alt="" />
+              <img src="/icons/facebook.svg" alt="" />
             </Link>
             <Link
               target="_blank"
               href={"https://www.linkedin.com/company/maeztra/"}
             >
-              <Image src="/icons/linkedin.svg" alt="" />
+              <img src="/icons/linkedin.svg" alt="" />
             </Link>
             <Link
               target="_blank"
               href={"https://www.instagram.com/maeztra_consultoria/"}
             >
-              <Image src="/icons/instagram.svg" alt="" />
+              <img src="/icons/instagram.svg" alt="" />
             </Link>
             <Link target="_blank" href={"https://www.youtube.com/@maeztra"}>
-              <Image src="/icons/youtube.svg" alt="" />
+              <img src="/icons/youtube.svg" alt="" />
             </Link>
           </div>
           <div className={`${styles.paymentMethods} flex gap-1`}>
-            <Image src="/icons/visa.svg" alt="" />
-            <Image src="/icons/mastercard.svg" alt="" />
-            <Image src="/icons/visa.svg" alt="" />
-            <Image src="/icons/mastercard.svg" alt="" />
+            <img src="/icons/visa.svg" alt="" />
+            <img src="/icons/mastercard.svg" alt="" />
+            <img src="/icons/visa.svg" alt="" />
+            <img src="/icons/mastercard.svg" alt="" />
           </div>
           <div className={`${styles.poweredby} flex gap-5 items-center	`}>
             <div className="flex flex-col items-center gap-1">
               <span>Powered by</span>
-              <Image src="/img/vtex.png" alt="" />
+              <img src="/img/vtex.png" alt="" />
             </div>
             <div className="flex flex-col items-center gap-1">
               <span>Developed by</span>
-              <Image width={100} src="/img/maeztra-footer.png" alt="" />
+              <img width={100} src="/img/maeztra-footer.png" alt="" />
             </div>
           </div>
         </div>

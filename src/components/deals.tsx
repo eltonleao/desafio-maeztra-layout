@@ -8,12 +8,7 @@ function DealCard({ image, title, description }: any) {
   return (
     <div className={`${styles.dealCard}`}>
       <div>
-        <Image
-          alt=""
-          className={`${styles.dealIcon}`}
-          height={32}
-          src={image}
-        />
+        <img alt="" className={`${styles.dealIcon}`} height={32} src={image} />
       </div>
       <div className={`${styles.dealCardTextContainer}`}>
         <h3 className={`${styles.dealTitle}`}>{title}</h3>
