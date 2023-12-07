@@ -12,7 +12,7 @@
     left: 140px !important;
     padding: 20px !important;
     z-index: 1;
-    background: url('/https://cdn.eltonleao.com/maeztra/icons/arrow-prev.svg') center center no-repeat !important;
+    background: url('https://cdn.eltonleao.com/maeztra/icons/arrow-prev.svg') center center no-repeat !important;
 }
 
 .slick-prev::before {
@@ -23,7 +23,7 @@
     right: 140px !important;
     padding: 20px !important;
     z-index: 1;
-    background: url('/https://cdn.eltonleao.com/maeztra/icons/arrow-next.svg') center center no-repeat !important;
+    background: url('https://cdn.eltonleao.com/maeztra/icons/arrow-next.svg') center center no-repeat !important;
     height: 32px;
 }
 
