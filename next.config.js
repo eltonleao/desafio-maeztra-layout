@@ -1,14 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  // images: {
-  //   remotePatterns: [
-  //     {
-  //       protocol: "https",
-  //       hostname: "**",
-  //     },
-  //   ],
-  // },
+  /* config options here */
 };
 
 module.exports = nextConfig;
