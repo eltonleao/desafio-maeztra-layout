@@ -76,7 +76,7 @@ export default function Campaign() {
     <div class="flex justify-between">
       <div class="w-full flex-1 popup-image"></div>
       <div class="flex-1 popup-content">
-        <img class="paperplane mb-3" src="/icons/newsletter-mail-icon.svg">
+        <img class="paperplane mb-3" src=".//icons/newsletter-mail-icon.svg">
         <h5>Bem Vindo à MAEZTRA</h5>
         <h4>Receba em Primeira mão<br><strong>desconto e ofertas exclusivas</strong></h4>
         <div class="w-full">

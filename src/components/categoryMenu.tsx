@@ -38,7 +38,7 @@ export function CategoryMenu() {
               variant="small"
               className={`${styles.navItem} cursor-pointer hover:text-orange-500 hover:font-semibold`}
             >
-              <img src="/icons/icon-dress.svg" alt="" />
+              <img src=".//icons/icon-dress.svg" alt="" />
               <span className={`${styles.highlight}`}>Novidades</span>
             </Typography>
           </li>

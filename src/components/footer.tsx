@@ -128,38 +128,38 @@ export function Footer() {
               target="_blank"
               href={"https://www.facebook.com/maeztraconsultoria/"}
             >
-              <img src="/icons/facebook.svg" alt="" />
+              <img src=".//icons/facebook.svg" alt="" />
             </Link>
             <Link
               target="_blank"
               href={"https://www.linkedin.com/company/maeztra/"}
             >
-              <img src="/icons/linkedin.svg" alt="" />
+              <img src=".//icons/linkedin.svg" alt="" />
             </Link>
             <Link
               target="_blank"
               href={"https://www.instagram.com/maeztra_consultoria/"}
             >
-              <img src="/icons/instagram.svg" alt="" />
+              <img src=".//icons/instagram.svg" alt="" />
             </Link>
             <Link target="_blank" href={"https://www.youtube.com/@maeztra"}>
-              <img src="/icons/youtube.svg" alt="" />
+              <img src=".//icons/youtube.svg" alt="" />
             </Link>
           </div>
           <div className={`${styles.paymentMethods} flex gap-1`}>
-            <img src="/icons/visa.svg" alt="" />
-            <img src="/icons/mastercard.svg" alt="" />
-            <img src="/icons/visa.svg" alt="" />
-            <img src="/icons/mastercard.svg" alt="" />
+            <img src=".//icons/visa.svg" alt="" />
+            <img src=".//icons/mastercard.svg" alt="" />
+            <img src=".//icons/visa.svg" alt="" />
+            <img src=".//icons/mastercard.svg" alt="" />
           </div>
           <div className={`${styles.poweredby} flex gap-5 items-center	`}>
             <div className="flex flex-col items-center gap-1">
               <span>Powered by</span>
-              <img src="/img/vtex.png" alt="" />
+              <img src=".//img/vtex.png" alt="" />
             </div>
             <div className="flex flex-col items-center gap-1">
               <span>Developed by</span>
-              <img width={100} src="/img/maeztra-footer.png" alt="" />
+              <img width={100} src=".//img/maeztra-footer.png" alt="" />
             </div>
           </div>
         </div>
