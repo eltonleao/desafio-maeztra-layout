@@ -25,10 +25,9 @@ function NewsLetter() {
           Swal.fire({
             icon: "success",
             title: "Cadastrado com sucesso!",
-            text: "PS: verfique sua caixa de entrada por favor ;)",
-            showConfirmButton: false,
-            timerProgressBar: true,
-            timer: 3000,
+            text: "Verfique sua caixa de entrada por favor ;)",
+            showConfirmButton: true,
+            confirmButtonColor: "#ffcc00",
           });
           setEmail("");
         } else {
@@ -52,7 +51,7 @@ function NewsLetter() {
             <input
               className={`${styles.input}`}
               placeholder="Digite seu e-mail"
-              type="text"
+              type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
