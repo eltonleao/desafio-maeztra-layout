@@ -28,6 +28,7 @@ import React from "react";
 
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import { logEvent } from "firebase/analytics";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAKKuItTTFlfVIJ_dHQAeahUWebeey1_P0",
@@ -46,6 +47,11 @@ export default function Campaign() {
   useEffect(() => {
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
+    logEvent(analytics, "test_event", {
+      param1: "value1",
+      param2: "value2",
+    });
+
     console.log("🚀 ~ file: layout.tsx:34 ~ useEffect ~ analytics:", analytics);
   }, []);
 
