@@ -155,15 +155,11 @@ export default function Campaign() {
       once: false,
       offset: 50,
     });
-  }, []);
 
-  // useEffect(() => {
-  //   //if window size change, wait 1s and reload page
-  //   window.addEventListener("resize", () => {
-  //     Swal.showLoading();
-  //     window.location.reload();
-  //   });
-  // }, []);
+    window.addEventListener("resize", () => {
+      AOS.refresh();
+    });
+  }, []);
 
   // useEffect(() => {
   //   axios.post("https://api.eltonleao.com/maeztra-v2/index.php", {
