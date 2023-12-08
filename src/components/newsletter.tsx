@@ -33,7 +33,7 @@ function NewsLetter() {
           Swal.fire({
             icon: "success",
             title: "Cadastrado com sucesso!",
-            text: "Verfique sua caixa de entrada por favor ;)",
+            // text: "Verfique sua caixa de entrada por favor ;)",
             showConfirmButton: true,
             confirmButtonColor: "#ffcc00",
           });
