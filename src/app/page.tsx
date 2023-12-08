@@ -25,11 +25,29 @@ import { useEffect } from "react";
 import Swal from "sweetalert2";
 import axios from "axios";
 import React from "react";
-// import ReactDOMServer from "react-dom/server";
+
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAKKuItTTFlfVIJ_dHQAeahUWebeey1_P0",
+  authDomain: "maeztra-eltonleao.firebaseapp.com",
+  projectId: "maeztra-eltonleao",
+  storageBucket: "maeztra-eltonleao.appspot.com",
+  messagingSenderId: "579839969267",
+  appId: "1:579839969267:web:e1f862888aa71e1e98f486",
+  measurementId: "G-270NJNXW3D",
+};
 
 export default function Campaign() {
   const [email, setEmail] = React.useState("");
   const [showNewsModal, setShowNewsModal] = React.useState(false);
+
+  useEffect(() => {
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    console.log("🚀 ~ file: layout.tsx:34 ~ useEffect ~ analytics:", analytics);
+  }, []);
 
   function saveEmail(email: string) {
     localStorage.setItem("email", email);
