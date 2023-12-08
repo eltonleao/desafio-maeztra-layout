@@ -171,8 +171,8 @@ export default function Campaign() {
   //   axios.post("https://api.eltonleao.com/maeztra-v2/index.php", {
   //     action: "signup-for-newsletter",
   //     data: {
-  //       email: "elton@agenciavinci.com.br",
-  //       // email: "3lton.leao@gmail.com",
+  //       // email: "elton@agenciavinci.com.br",
+  //       email: "3lton.leao@gmail.com",
   //     },
   //   });
   // }, []);
