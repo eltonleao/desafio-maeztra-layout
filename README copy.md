@@ -8,19 +8,14 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/aimeos/aimeos-typo3/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/aimeos/aimeos-typo3/?branch=master)
 [![License](https://poser.pugx.org/aimeos/aimeos-typo3/license.svg)](https://packagist.org/packages/aimeos/aimeos-typo3)
 
-:star: Star us on GitHub — it motivates us a lot!
-
-[Aimeos](https://aimeos.org/TYPO3) is THE professional, full-featured and
-high performance e-commerce extension for TYPO3! You can install it in your
-existing TYPO3 web site within 5 minutes and can adapt, extend, overwrite
-and customize anything to your needs.
+[https://maeztra.eltonleao.com](https://maeztra.eltonleao.com) é o resultado do desafio proposto pela Maeztra para a vaga de Desenvolvedor Frontend Fullstack.
 
 ![aimeos-frontend](https://user-images.githubusercontent.com/8647429/212348410-55cbaa00-722a-4a30-8b57-da9e173e0675.jpg)
 
-## Table Of Content
+## Conteúdo desta Doc
 
 - [DESAFIO MAEZTRA LAYOUT](#desafio-maeztra-layout)
-  - [Table Of Content](#table-of-content)
+  - [Conteúdo desta Doc](#conteúdo-desta-doc)
   - [Installation](#installation)
     - [Composer](#composer)
     - [DDev](#ddev)
