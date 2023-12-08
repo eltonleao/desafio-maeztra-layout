@@ -85,7 +85,11 @@
 
 @media (max-width: 993px) {
     .nav {
-        min-height: 72px;
+        min-height: auto;
+    }
+
+    .navbar {
+        min-height: auto !important;
     }
 
     .searchBar_container {
