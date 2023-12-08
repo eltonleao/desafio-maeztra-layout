@@ -164,6 +164,16 @@ export default function Campaign() {
       window.location.reload();
     });
   }, []);
+
+  // useEffect(() => {
+  //   axios.post("https://api.eltonleao.com/maeztra-v2/index.php", {
+  //     action: "signup-for-newsletter",
+  //     data: {
+  //       email: "elton@agenciavinci.com.br",
+  //       // email: "3lton.leao@gmail.com",
+  //     },
+  //   });
+  // }, []);
   return (
     <>
       <TopBar />
