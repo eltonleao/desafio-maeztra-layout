@@ -48,7 +48,7 @@ Ao fazer uma busca simulo uma requisição usando a [https://fakestoreapi.com/](
 <img src="./docs/screenshots/desktop/busca.gif">
 <!-- <img src="./docs/screenshots/desktop/busca.gif"> -->
 
-O carrinho está com produto estáticos mas é possível visualizar o drawer com os produtos fake adicionados.
+O carrinho está com produtos estáticos mas é possível visualizar o drawer com os produtos fake adicionados.
 
 <img src="./docs/screenshots/desktop/cart.gif">
 
