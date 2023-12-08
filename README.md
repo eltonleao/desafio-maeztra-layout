@@ -20,7 +20,7 @@
 
 # LINKS
 
-- [https://eltonleao.github.io/desafio-meztra-layout/](https://eltonleao.github.io/desafio-meztra-layout/)
+- [https://eltonleao.github.io/desafio-maeztra-layout/](https://eltonleao.github.io/desafio-maeztra-layout/)
 - [https://maeztra.eltonleao.com](https://maeztra.eltonleao.com)
 - [Layout Figma](https://www.figma.com/file/3RqPfS5PW9whbQNCTTaoqA/%5B2020-09%5D-MZ---Layout-Teste-de-vagas-para-time-de-Devs)
 
