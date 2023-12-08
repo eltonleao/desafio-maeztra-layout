@@ -152,12 +152,18 @@ export default function Campaign() {
   useEffect(() => {
     AOS.init({
       easing: "ease-in-out",
-      once: false,
+      once: true,
       offset: 50,
     });
 
     window.addEventListener("resize", () => {
       AOS.refresh();
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () {
+        AOS.refresh();
+      }, 500);
     });
   }, []);
 
