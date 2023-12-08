@@ -27,14 +27,14 @@ function NewsLetter() {
             title: "Cadastrado com sucesso!",
             text: "PS: verfique sua caixa de entrada por favor ;)",
             showConfirmButton: false,
+            timerProgressBar: true,
             timer: 3000,
           });
           setEmail("");
         } else {
           Swal.fire({
             icon: "error",
-            title: "Oops...",
-            text: "E-mail já cadastrado!",
+            title: "Algo deu errado",
           });
         }
       })

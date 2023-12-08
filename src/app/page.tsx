@@ -56,6 +56,7 @@ export default function Campaign() {
             text: "Verfique sua caixa de entrada por favor ;)",
             showConfirmButton: true,
             confirmButtonColor: "#ffcc00",
+            timerProgressBar: true,
           });
         } else {
           Swal.fire({
