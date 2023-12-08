@@ -4,12 +4,12 @@
 
 # DESAFIO MAEZTRA LAYOUT
 
-[https://maeztra.eltonleao.com](https://maeztra.eltonleao.com)
-
 <!-- ![](./docs/screenshots/hero.png) -->
 
 - [DESAFIO MAEZTRA LAYOUT](#desafio-maeztra-layout)
+- [LINKS](#links)
 - [STACK](#stack)
+- [DEPLOY](#deploy)
 - [LAYOUT](#layout)
   - [NEWSLETTER](#newsletter)
   - [HEADER](#header)
@@ -17,7 +17,12 @@
   - [DEALS | PARTNERS](#deals--partners)
   - [SHELF](#shelf)
   - [INFOCARD | FOOTER](#infocard--footer)
-- [LINKS](#links)
+
+# LINKS
+
+- [https://eltonleao.github.io/desafio-meztra-layout/](https://eltonleao.github.io/desafio-meztra-layout/)
+- [https://maeztra.eltonleao.com](https://maeztra.eltonleao.com)
+- [Layout Figma](https://www.figma.com/file/3RqPfS5PW9whbQNCTTaoqA/%5B2020-09%5D-MZ---Layout-Teste-de-vagas-para-time-de-Devs)
 
 # STACK
 
@@ -29,6 +34,8 @@ Para rodar bastar clonar o projeto e dar install e dev.
 npm install
 npm run dev
 ```
+
+# DEPLOY
 
 # LAYOUT
 
@@ -86,8 +93,3 @@ Ao clicar em adicionar, simulo um toast de sucesso ao adicionar no carriho.
 
 Assim como todas as seções, info card e footer foram desenvolvidas de forma responsiva usando tailwind + css customizado.
 <img src="./docs/screenshots/desktop/infocard-footer.png" />
-
-# LINKS
-
-- [https://maeztra.eltonleao.com](https://maeztra.eltonleao.com)
-- [Layout Figma](https://www.figma.com/file/3RqPfS5PW9whbQNCTTaoqA/%5B2020-09%5D-MZ---Layout-Teste-de-vagas-para-time-de-Devs)
