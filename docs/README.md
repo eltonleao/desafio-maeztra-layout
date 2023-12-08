@@ -6,30 +6,40 @@
 
 [https://maeztra.eltonleao.com](https://maeztra.eltonleao.com)
 
-![](./screenshots/hero.png)
+<!-- ![](./screenshots/hero.png) -->
 
 - [DESAFIO MAEZTRA LAYOUT](#desafio-maeztra-layout)
-  - [STACK](#stack)
+- [STACK](#stack)
+- [LAYOUT](#layout)
+  - [NEWSLETTER](#newsletter)
   - [HEADER](#header)
   - [HERO](#hero)
-  - [DEALS](#deals)
-  - [PARTNERS](#partners)
+  - [DEALS | PARTNERS](#deals--partners)
   - [SHELF](#shelf)
-  - [INFOCARD](#infocard)
-  - [NEWSLETTER](#newsletter)
-  - [FOOTER](#footer)
-  - [LINKS](#links)
+  - [INFOCARD FOOTER](#infocard-footer)
+- [LINKS](#links)
 
-## STACK
+# STACK
 
 Este projeto está sendo desenvolvido usando React, Next.js, Typescript e Material Tailwind.
 
-Para rodar bastar clonar o projeto e rodar os seguintes comandos:
+Para rodar bastar clonar o projeto e rodar install e dev.
 
 ```bash
 npm install
 npm run dev
 ```
+
+# LAYOUT
+
+## NEWSLETTER
+
+Ao cadastrar-se na newsletter você receberá um email de teste.
+
+A funcionalidade foi feita enviando uma requisição http para meu serviço hospedado em https://api.eltonleao.com/maeztra
+
+<img src="./screenshots/desktop/newsletter.gif">
+<img src="./screenshots/desktop/newsletter2.gif">
 
 ## HEADER
 
@@ -46,29 +56,30 @@ O carousel de produtos foi desenvolvido usando o [react-slick](https://react-sli
 
 <img src="./screenshots/desktop/hero.gif" />
 
-## DEALS
+## DEALS | PARTNERS
 
-## PARTNERS
+A funcionalidade de carousel das seções de deals e partners também foram desenvolvidas usando o [react-slick](https://react-slick.neostack.com/)
+
+<img height="500px" src="./screenshots/mobile/deals.gif" />
 
 ## SHELF
 
 O carousel de produtos foi desenvolvido usando o [react-slick](https://react-slick.neostack.com/).
 
-Usei stable difision para gerar as images de variações usando a imagem base no figma.
+Usei Stable Diffusion através da plataforma [playground.ai](https://playgroundai.com/) para gerar as images de variações usando a imagem base no figma.
 
 Ao passar sobre o sku a imagem é trocada.
 
-Ao clicar em adicionar, simulo um toast de sucesso.
+Ao clicar em adicionar, simulo um toast de sucesso ao adicionar no carriho.
 
 <img src="./screenshots/desktop/shelf.gif" />
 
-## INFOCARD
+## INFOCARD FOOTER
 
-## NEWSLETTER
+Assim como todas as seções, info card e footer foram desenvolvidas de forma responsiva usando tailwind + css customizado.
+<img src="./screenshots/desktop/infocard-footer.png" />
 
-## FOOTER
-
-## LINKS
+# LINKS
 
 - [https://maeztra.eltonleao.com](https://maeztra.eltonleao.com)
 - [Layout Figma](https://www.figma.com/file/3RqPfS5PW9whbQNCTTaoqA/%5B2020-09%5D-MZ---Layout-Teste-de-vagas-para-time-de-Devs)
