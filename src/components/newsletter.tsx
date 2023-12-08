@@ -8,11 +8,17 @@ import Swal from "sweetalert2";
 function NewsLetter() {
   const [email, setEmail] = React.useState("");
 
+  function saveEmail(email: string) {
+    localStorage.setItem("email", email);
+    window.localStorage.setItem("isThisInLocalStorage", "true");
+    window.dispatchEvent(new Event("storage"));
+  }
+
   function signUp(e: any) {
     e.preventDefault();
     if (!email) return;
     //save email on localStorage
-    localStorage.setItem("email", email);
+    saveEmail(email);
     //show loading
     Swal.showLoading();
     axios
@@ -44,11 +50,20 @@ function NewsLetter() {
       });
   }
 
-  useEffect(() => {
+  function getEmail() {
     const email = localStorage.getItem("email");
     if (email) {
       setEmail(email);
     }
+  }
+
+  useEffect(() => {
+    getEmail();
+
+    window.addEventListener("storage", (data) => {
+      getEmail();
+      // ...
+    });
   }, []);
 
   return (

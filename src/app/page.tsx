@@ -31,15 +31,18 @@ export default function Campaign() {
   const [email, setEmail] = React.useState("");
   const [showNewsModal, setShowNewsModal] = React.useState(false);
 
+  function saveEmail(email: string) {
+    localStorage.setItem("email", email);
+    window.localStorage.setItem("isThisInLocalStorage", "true");
+    window.dispatchEvent(new Event("storage"));
+  }
+
   function signUp(e: any = null) {
-    // if (!e) return;
-    // e.preventDefault();
-    //get value from input #newsletter-email-signup
     const inputEmail = document.getElementById(
       "newsletter-email-signup"
       //@ts-ignore
     )?.value;
-    localStorage.setItem("email", inputEmail);
+    saveEmail(inputEmail);
     if (!inputEmail) {
       alert("Digite um e-mail válido!");
       return;
