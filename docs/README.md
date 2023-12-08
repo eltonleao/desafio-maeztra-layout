@@ -1,26 +1,21 @@
 <a href="https://aimeos.org/">
-    <img src="https://aimeos.org/fileadmin/templatehttps://cdn.eltonleao.com/maeztra/icons/logo.png" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
+    <img src="https://i.ibb.co/StZVfCx/logo-maeztra-novo.png" alt="Aimeos logo" title="Aimeos" align="right" width="200" />
 </a>
 
-# Aimeos TYPO3 extension
+# DESAFIO MAEZTRA LAYOUT
 
 [![Total Downloads](https://poser.pugx.org/aimeos/aimeos-typo3/d/total.svg)](https://packagist.org/packages/aimeos/aimeos-typo3)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/aimeos/aimeos-typo3/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/aimeos/aimeos-typo3/?branch=master)
 [![License](https://poser.pugx.org/aimeos/aimeos-typo3/license.svg)](https://packagist.org/packages/aimeos/aimeos-typo3)
 
-:star: Star us on GitHub — it motivates us a lot!
+[https://maeztra.eltonleao.com](https://maeztra.eltonleao.com)
 
-[Aimeos](https://aimeos.org/TYPO3) is THE professional, full-featured and
-high performance e-commerce extension for TYPO3! You can install it in your
-existing TYPO3 web site within 5 minutes and can adapt, extend, overwrite
-and customize anything to your needs.
+![aimeos-frontend](./screenshots/hero.png)
 
-![aimeos-frontend](https://user-images.githubusercontent.com/8647429/212348410-55cbaa00-722a-4a30-8b57-da9e173e0675.jpg)
+## Conteúdo desta Doc
 
-## Table Of Content
-
-- [Aimeos TYPO3 extension](#aimeos-typo3-extension)
-  - [Table Of Content](#table-of-content)
+- [DESAFIO MAEZTRA LAYOUT](#desafio-maeztra-layout)
+  - [Conteúdo desta Doc](#conteúdo-desta-doc)
   - [Installation](#installation)
     - [Composer](#composer)
     - [DDev](#ddev)
@@ -36,7 +31,6 @@ and customize anything to your needs.
     - [Upload the page tree file](#upload-the-page-tree-file)
     - [Import the page tree](#import-the-page-tree)
     - [SEO-friendly URLs](#seo-friendly-urls)
-  - [License](#license)
   - [Links](#links)
 
 ## Installation
@@ -242,16 +236,8 @@ Now you have a new page "Shop" in your page tree including all required sub-page
 
 TYPO3 9.5 and later can create SEO friendly URLs if you add the rules to the site config:
 [https://aimeos.org/docs/latest/typo3/setup/#seo-urls](https://aimeos.org/docs/latest/typo3/setup/#seo-urls)
-
-## License
-
-The Aimeos TYPO3 extension is licensed under the terms of the GPL Open Source
-license and is available for free.
+.
 
 ## Links
 
-- [Web site](https://aimeos.org/integrations/typo3-shop-extension/)
-- [Documentation](https://aimeos.org/docs/TYPO3)
-- [Forum](https://aimeos.org/help/typo3-extension-f16/)
-- [Issue tracker](https://github.com/aimeos/aimeos-typo3/issues)
-- [Source code](https://github.com/aimeos/aimeos-typo3)
+- [https://maeztra.eltonleao.com](https://maeztra.eltonleao.com)
