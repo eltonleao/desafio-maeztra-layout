@@ -16,7 +16,7 @@
   - [HERO](#hero)
   - [DEALS | PARTNERS](#deals--partners)
   - [SHELF](#shelf)
-  - [INFOCARD FOOTER](#infocard-footer)
+  - [INFOCARD | FOOTER](#infocard--footer)
 - [LINKS](#links)
 
 # STACK
@@ -74,7 +74,7 @@ Ao clicar em adicionar, simulo um toast de sucesso ao adicionar no carriho.
 
 <img src="./screenshots/desktop/shelf.gif" />
 
-## INFOCARD FOOTER
+## INFOCARD | FOOTER
 
 Assim como todas as seções, info card e footer foram desenvolvidas de forma responsiva usando tailwind + css customizado.
 <img src="./screenshots/desktop/infocard-footer.png" />
