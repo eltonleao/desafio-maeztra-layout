@@ -60,27 +60,27 @@ function Deals() {
         <div className={`${styles.dealsCardsContainer}`}>
           <Slider {...settings}>
             <DealCard
-              image="/icons/deal1.png"
+              image="https://cdn.eltonleao.com/maeztra/icons/deal1.png"
               title="Produtos importados"
               description="Produto de Alta Qualidade"
             />
             <DealCard
-              image="/icons/deal2.png"
+              image="https://cdn.eltonleao.com/maeztra/icons/deal2.png"
               title="Estoque no Brazil"
               description="Produtos mais perto de você!"
             />
             <DealCard
-              image="/icons/deal3.png"
+              image="https://cdn.eltonleao.com/maeztra/icons/deal3.png"
               title="Trocas Garantidas"
               description="Trocas em até 48 horas, vejas as regras"
             />
             <DealCard
-              image="/icons/deal4.png"
+              image="https://cdn.eltonleao.com/maeztra/icons/deal4.png"
               title="Ganhe 5% off"
               description="Pagando à vista no Cartão"
             />
             <DealCard
-              image="/icons/deal5.png"
+              image="https://cdn.eltonleao.com/maeztra/icons/deal5.png"
               title="Frete Grátis"
               description="Em compras acima de R$ 499,00"
             />

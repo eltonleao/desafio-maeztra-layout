@@ -41,7 +41,7 @@ function renderNewsLetterHTML() {
   <div class="flex justify-between">
     <div class="w-full flex-1 popup-image"></div>
     <div class="flex-1 popup-content">
-      <img class="paperplane mb-3" src="https://cdn.eltonleao.com/maeztra/icons/lupa.svg">
+      <img class="paperplane mb-3" src="https://cdn.eltonleao.com/maeztrahttps://cdn.eltonleao.com/maeztra/icons/lupa.svg">
       <h4>Encontre os <br><strong>melhores produtos:</strong></h4>
     </div>
   </div>
@@ -195,7 +195,7 @@ export function Navbar({ isSolid = false }) {
           <div className={`${styles.mGlassAndBag}`}>
             <button onClick={openSearch} className="lg:hidden text-black">
               <img
-                src="https://cdn.eltonleao.com/maeztra/icons/lupa.svg"
+                src="https://cdn.eltonleao.com/maeztrahttps://cdn.eltonleao.com/maeztra/icons/lupa.svg"
                 alt=""
               />
             </button>
@@ -230,7 +230,7 @@ export function Navbar({ isSolid = false }) {
                 className={`${styles.navItem}`}
               >
                 <img
-                  src="https://cdn.eltonleao.com/maeztra/icons/user.svg"
+                  src="https://cdn.eltonleao.com/maeztrahttps://cdn.eltonleao.com/maeztra/icons/user.svg"
                   alt=""
                 />
                 <span>Minha Conta</span>
@@ -243,7 +243,7 @@ export function Navbar({ isSolid = false }) {
                 className={`${styles.navItem}`}
               >
                 <img
-                  src="https://cdn.eltonleao.com/maeztra/icons/icon-heart.svg"
+                  src="https://cdn.eltonleao.com/maeztrahttps://cdn.eltonleao.com/maeztra/icons/icon-heart.svg"
                   alt=""
                 />
                 <span>Minha Lista</span>
@@ -260,7 +260,7 @@ export function Navbar({ isSolid = false }) {
               <NavItem>
                 <div className="flex gap-1">
                   <img
-                    src="https://cdn.eltonleao.com/maeztra/icons/icon-dress.svg"
+                    src="https://cdn.eltonleao.com/maeztrahttps://cdn.eltonleao.com/maeztra/icons/icon-dress.svg"
                     alt=""
                   />
                   <span className={`${styles.highlight}`}>Novidades</span>

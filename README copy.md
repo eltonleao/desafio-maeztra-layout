@@ -1,8 +1,8 @@
 <a href="https://aimeos.org/">
-    <img src="https://aimeos.org/fileadmin/template/icons/logo.png" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
+    <img src="https://i.ibb.co/StZVfCx/logo-maeztra-novo.png" alt="Aimeos logo" title="Aimeos" align="right" width="200" />
 </a>
 
-# Aimeos TYPO3 extension
+# DESAFIO MAEZTRA LAYOUT
 
 [![Total Downloads](https://poser.pugx.org/aimeos/aimeos-typo3/d/total.svg)](https://packagist.org/packages/aimeos/aimeos-typo3)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/aimeos/aimeos-typo3/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/aimeos/aimeos-typo3/?branch=master)
@@ -19,7 +19,7 @@ and customize anything to your needs.
 
 ## Table Of Content
 
-- [Aimeos TYPO3 extension](#aimeos-typo3-extension)
+- [DESAFIO MAEZTRA LAYOUT](#desafio-maeztra-layout)
   - [Table Of Content](#table-of-content)
   - [Installation](#installation)
     - [Composer](#composer)

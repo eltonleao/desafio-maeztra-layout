@@ -131,7 +131,7 @@ export function Footer() {
               href={"https://www.facebook.com/maeztraconsultoria/"}
             >
               <img
-                src="https://cdn.eltonleao.com/maeztra/icons/facebook.svg"
+                src="https://cdn.eltonleao.com/maeztrahttps://cdn.eltonleao.com/maeztra/icons/facebook.svg"
                 alt=""
               />
             </Link>
@@ -140,7 +140,7 @@ export function Footer() {
               href={"https://www.linkedin.com/company/maeztra/"}
             >
               <img
-                src="https://cdn.eltonleao.com/maeztra/icons/linkedin.svg"
+                src="https://cdn.eltonleao.com/maeztrahttps://cdn.eltonleao.com/maeztra/icons/linkedin.svg"
                 alt=""
               />
             </Link>
@@ -149,32 +149,32 @@ export function Footer() {
               href={"https://www.instagram.com/maeztra_consultoria/"}
             >
               <img
-                src="https://cdn.eltonleao.com/maeztra/icons/instagram.svg"
+                src="https://cdn.eltonleao.com/maeztrahttps://cdn.eltonleao.com/maeztra/icons/instagram.svg"
                 alt=""
               />
             </Link>
             <Link target="_blank" href={"https://www.youtube.com/@maeztra"}>
               <img
-                src="https://cdn.eltonleao.com/maeztra/icons/youtube.svg"
+                src="https://cdn.eltonleao.com/maeztrahttps://cdn.eltonleao.com/maeztra/icons/youtube.svg"
                 alt=""
               />
             </Link>
           </div>
           <div className={`${styles.paymentMethods} flex gap-1`}>
             <img
-              src="https://cdn.eltonleao.com/maeztra/icons/visa.svg"
+              src="https://cdn.eltonleao.com/maeztrahttps://cdn.eltonleao.com/maeztra/icons/visa.svg"
               alt=""
             />
             <img
-              src="https://cdn.eltonleao.com/maeztra/icons/mastercard.svg"
+              src="https://cdn.eltonleao.com/maeztrahttps://cdn.eltonleao.com/maeztra/icons/mastercard.svg"
               alt=""
             />
             <img
-              src="https://cdn.eltonleao.com/maeztra/icons/visa.svg"
+              src="https://cdn.eltonleao.com/maeztrahttps://cdn.eltonleao.com/maeztra/icons/visa.svg"
               alt=""
             />
             <img
-              src="https://cdn.eltonleao.com/maeztra/icons/mastercard.svg"
+              src="https://cdn.eltonleao.com/maeztrahttps://cdn.eltonleao.com/maeztra/icons/mastercard.svg"
               alt=""
             />
           </div>

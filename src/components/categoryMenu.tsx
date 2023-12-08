@@ -39,7 +39,7 @@ export function CategoryMenu() {
               className={`${styles.navItem} cursor-pointer hover:text-orange-500 hover:font-semibold`}
             >
               <img
-                src="https://cdn.eltonleao.com/maeztra/icons/icon-dress.svg"
+                src="https://cdn.eltonleao.com/maeztrahttps://cdn.eltonleao.com/maeztra/icons/icon-dress.svg"
                 alt=""
               />
               <span className={`${styles.highlight}`}>Novidades</span>
