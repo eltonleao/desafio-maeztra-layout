@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { use, useEffect } from "react";
 import styles from "./newsletter.module.css";
 import axios from "axios";
 import Swal from "sweetalert2";
@@ -11,6 +11,8 @@ function NewsLetter() {
   function signUp(e: any) {
     e.preventDefault();
     if (!email) return;
+    //save email on localStorage
+    localStorage.setItem("email", email);
     //show loading
     Swal.showLoading();
     axios
@@ -41,6 +43,13 @@ function NewsLetter() {
         alert("Erro ao cadastrar e-mail!");
       });
   }
+
+  useEffect(() => {
+    const email = localStorage.getItem("email");
+    if (email) {
+      setEmail(email);
+    }
+  }, []);
 
   return (
     <>
