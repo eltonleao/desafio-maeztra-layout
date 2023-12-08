@@ -122,10 +122,8 @@ export function Footer() {
         </div>
       </div>
       <div className={`${styles.bottom} `}>
-        <div
-          className={`container m-auto flex w-full items-baseline ${styles.content}`}
-        >
-          <div className={`${styles.socialMedia}`}>
+        <div className={`container m-auto flex w-full ${styles.content}`}>
+          <div className={`${styles.socialMedia} items-baseline`}>
             <Link
               target="_blank"
               href={"https://www.facebook.com/maeztraconsultoria/"}
