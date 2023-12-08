@@ -93,3 +93,4 @@ Ao clicar em adicionar, simulo um toast de sucesso ao adicionar no carriho.
 
 Assim como todas as seções, info card e footer foram desenvolvidas de forma responsiva usando tailwind + css customizado.
 <img src="./docs/screenshots/desktop/infocard-footer.png" />
+<img src="./docs/screenshots/mobile/footer.gif" />
