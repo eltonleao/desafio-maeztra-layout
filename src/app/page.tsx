@@ -157,13 +157,13 @@ export default function Campaign() {
     });
   }, []);
 
-  useEffect(() => {
-    //if window size change, wait 1s and reload page
-    window.addEventListener("resize", () => {
-      Swal.showLoading();
-      window.location.reload();
-    });
-  }, []);
+  // useEffect(() => {
+  //   //if window size change, wait 1s and reload page
+  //   window.addEventListener("resize", () => {
+  //     Swal.showLoading();
+  //     window.location.reload();
+  //   });
+  // }, []);
 
   // useEffect(() => {
   //   axios.post("https://api.eltonleao.com/maeztra-v2/index.php", {
