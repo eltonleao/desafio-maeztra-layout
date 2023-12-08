@@ -27,7 +27,7 @@ function Infocard() {
         <div className={`${styles.imgDesktop}`}></div>
         <img
           className={`${styles.imgMobile} lg:hidden`}
-          src="https://cdn.eltonleao.com/maeztra/https://i.imgur.com/1vLCv01.png"
+          src="https://i.imgur.com/1vLCv01.png"
           alt=""
         />
       </section>
